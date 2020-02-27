@@ -1,0 +1,39 @@
+.cards-holder {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card {
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  width: 50px;
+  min-height: 100px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card .lower-number {
+  float: right;
+}
+
+.shuffle {
+  padding: 10px 20px;
+  background-color: #f3f3f3;
+  border: solid 1px #217db1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.shuffle:hover,
+.shuffle:active,
+.shuffle:focus {
+  background-color: #3fa4dc;
+}
